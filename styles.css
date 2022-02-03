@@ -1,0 +1,216 @@
+.flex-container{
+    display:flex;
+    flex-direction: column;
+  
+}
+
+
+.flex-container .one{
+    background: #1F2937;
+    display:flex;
+    flex-direction:column;
+    color: white;
+ 
+}
+
+
+#header-banner{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 18px;
+
+}
+
+.header-right{
+    border: red;
+
+    margin-right: 18px;
+
+    
+}
+
+.main {
+    background: #1F2937;
+    display:flex;
+    flex-direction:row;
+    height:300px;
+    align-items: center;
+    gap: 100px
+    
+}
+
+.main-left{
+    display:flex;
+    flex-direction:column;
+    width:300px;
+    margin-left: 200px;
+    flex: 1;
+}
+
+.main-right{
+    display:flex;
+    justify-content:center;
+    margin-right:200px;
+    width:350px;
+    height:200px;
+    align-items: center;
+    text-align: center;
+    background: gray;
+    padding:10px;
+    
+
+}
+
+
+
+
+a {
+    font-size: 12px;
+    padding: 8px;
+    /* this removes the line under the links */
+    text-decoration: none;
+    color: white;
+  }
+  
+ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+  }
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    width:100px;
+  }
+  
+  button.sign {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+  }
+
+.flex-container .two{
+    background: white;
+    display:flex;
+    flex-direction:column;
+    color: white;
+
+    text-align: center;
+    
+}
+
+
+
+.container {
+        display: flex;
+        justify-content: center;
+        gap: 52px;
+        margin-bottom: 100px;
+        margin-left: 150px;
+        margin-right:150px;
+        
+        
+        
+    }
+.title {
+        margin-bottom: 32px;
+        font-size: 36px;
+        color: #1F2937;
+        font-weight:bold;
+      }
+
+.text{
+    color: #1F2937;
+    font-size: 18px;
+    
+}
+
+
+#img{
+    height:150px;
+    border:1px solid blue;
+    border-radius: 25px;
+}
+
+.three{
+    height:350px;
+    background: #E5E7EB;
+
+}
+
+
+.quote{
+    font-weight:light;
+    font-style: italic;
+    font-color: #1F2937;
+    margin: 100px 200px;
+    font-size: 3vw;
+    /*font-size: 34px;*/
+ 
+}
+
+.reference{
+    font-weight: bold;
+    font-size: 18px;
+    text-align: end;
+    margin-left: 200px;
+    margin-right:200px;
+    margin-top: -80px;
+}
+
+.four{
+    display:flex;
+    align-items: center;
+    color:white;
+    height: 300px;
+    justify-content: center;
+    
+    
+}
+.bottom{
+    display: flex;
+    width:600px;
+    height:100px;
+    background:#3882F6;
+    border-radius: 8px;
+    gap:50px;
+    align-items: center;
+    justify-content: center;
+
+    
+    
+}
+
+.sign-buttom{
+    height:50px;
+    color:white;
+    border:1px solid white;
+    background: #3882F6;
+    
+}
+
+.header-logo-text{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1F2937;
+    color: white;
+    font-size:12px;
+    /*position: fixed;*/
+  }
